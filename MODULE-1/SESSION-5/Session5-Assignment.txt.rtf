@@ -1,0 +1,60 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-BoldItalic;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww27960\viewh17620\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\i\b\fs72 \cf0                                                     Session-5 Assignment\
+1)Here are the basic git commands for each task:\
+</>Bash\
+#Initialize a new git repository\
+git init\
+\
+#stage all files\
+git add .\
+\
+#Commit with a message\
+git commit -m \'93your commit message\'94\
+\
+#Push to the remote repository(main branch)\
+git push origin main\
+\
+#Pull the latest changes from the remote repository \
+git pull origin main\
+\
+2)Difference between git fetch and git pull\
+1.git fetch downloads the latest changes from the remote repository but does not merge them \
+   into your current branch.\
+2.git pull downloads the latest changes and automatically merge them into your current \
+   branch.\
+\
+3)Create a new Github repository and push a text file\
+1.Create a new repository on GitHub(eg. git.assignment).\
+2.Create a text file named hello.txt and write:\
+   Hello,GitHub!\
+   This is my first assignment.\
+3.open Git Bash in the project folder and run:\
+   git init\
+   git add .\
+   git commit -m \'93Add hello.txt\'94\
+   git branch -m main\
+   git remote add origin http://github.com/USERNAME/git-assignment.git\
+   git push -u origin main\
+4.Repository Link(Example Format);\
+   https://github.com/USERNAME/git-assignment.Git replace USERNAME with your\
+  GitHub username.\
+\
+4)Difference between a fork and a pull request\
+1.Fork:A Fork creates a copy of someone else\'92s GitHub repository in your own GitHub \
+  account.\
+2.Pull Request:A pull request is a request to merge your changes from your repository \
+   or branch init the original repository.\
+\
+5)Commands to create a branch,make a commit, and merge it into the main branch:\
+   git checkout -b feature-test\
+   Echo \'93feature added\'94 >feature.txt\
+   git add .\
+   git commit -m \'93add feature.txt\'94\
+   git checkout main\
+   git merge feature-test.}
